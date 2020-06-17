@@ -1,0 +1,10 @@
+:root {
+    --deep: #160B38;
+    --dark: #3b1c99;
+    --light: #8054F6;
+    --red: #FF735F;
+    --grey: #FDFBFB;
+    --green: #5fd3be;
+    --orange: #ffda89;
+    --gradient-text: linear-gradient(to right, #8054F6, #ff00cc, #8054F6);
+}

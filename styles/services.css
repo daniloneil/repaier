@@ -1,0 +1,103 @@
+/* Services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    width: 33.33333%;
+    padding: 0 35px 40px 85px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.services__icon {
+    position: absolute;
+    top: -50px;
+    left: 28px;
+    z-index: 1;
+    width: 12%;
+    fill: var(--dark);
+}
+
+.services__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.services__text {
+    font-size: 15px;
+    color: var(--deep);
+}
+
+.offer__text {
+    color: #999;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* We do */
+.pricing {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.pricing__item {
+    font-size: inherit;
+    width: 30%;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 15px 35px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 15px 35px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 15px 35px -10px rgba(0, 0, 0, 0.75);
+}
+
+.pricing__item:last-child {
+    margin-right: 0px;
+}
+
+.price-option__cost {
+    font-size: 20px;
+    background-color: var(--grey);
+    padding-top: 20px;
+    font-weight: 700;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.price-option__text {
+    background-color: var(--grey);
+    padding: 50px 20px;
+    font-size: 30px;
+}
+
+.price-option__purchase {
+    color: var(--grey);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--dark);
+    padding: 30px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.price-option__purchase:hover {
+    background-color: var(--light);
+    transition: .2s linear;
+}
+
+.price-option__cost,
+.price-option__text,
+.price-option__purchase {
+    display: block;
+}
